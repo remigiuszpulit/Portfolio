@@ -13,4 +13,7 @@
     padding-right: rem(15px);
     margin: auto;
   }
+  &#{&}--bg {
+    background-color: $secondary-light;
+  }
 }
