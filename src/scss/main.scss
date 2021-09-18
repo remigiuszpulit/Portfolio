@@ -1,3 +1,8 @@
-body {
-  background: peru;
-}
+@import "../../node_modules/normalize-scss/sass/normalize/import-now";
+@import "./partials/variables";
+@import "./partials/_globals";
+@import "./partials/fonts";
+@import "./partials/functions";
+@import "./partials/layout";
+// Components
+@import "./components/nav";

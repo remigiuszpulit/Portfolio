@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/remigiuszpulit/Portfolio#readme",
   "dependencies": {
+    "normalize-scss": "^7.0.1",
     "sass": "^1.41.1"
   }
 }
