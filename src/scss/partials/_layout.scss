@@ -2,8 +2,8 @@
   width: 100%;
   box-sizing: border-box;
   &#{&}--header {
-    max-width: $breakpoint-lg;
-    margin: auto;
+    // max-width: $breakpoint-lg;
+    // margin: auto;
     display: flex;
     justify-content: flex-end;
   }

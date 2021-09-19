@@ -7,6 +7,9 @@
   color: $dark;
   margin-right: rem(20px);
   margin-bottom: rem(20px);
+  @include mq("sm") {
+    width: 100%;
+  }
   &:nth-child(even) {
     margin-right: 0;
   }
