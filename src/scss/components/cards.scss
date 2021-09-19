@@ -11,29 +11,20 @@
     margin-right: 0;
   }
   #{&}__hdl {
-    font-family: "Heebo Bold", sans-serif;
-    font-size: rem(26px);
-    line-height: 1.5;
+    @include hdl(26px, 1.4, "Bold");
   }
 
   #{&}__addinfo {
-    font-family: "Heebo Regular", sans-serif;
-    font-size: rem(18px);
-    line-height: 1.4;
-  }
+    @include paragraph(18px);
 
-  #{&}__date {
-    border-right: 1px solid $dark;
-    padding-right: rem(32px);
-    margin-right: rem(30px);
-  }
+    #{&}__date {
+      border-right: 1px solid $dark;
+      padding-right: rem(32px);
+      margin-right: rem(30px);
+    }
 
-  #{&}__category {
-  }
-
-  #{&}__text {
-    font-family: "Heebo Regular", sans-serif;
-    font-size: rem(16px);
-    line-height: 1.4;
+    #{&}__text {
+      @include paragraph;
+    }
   }
 }

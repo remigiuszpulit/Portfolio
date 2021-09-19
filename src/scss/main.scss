@@ -2,6 +2,7 @@
 @import "./partials/variables";
 @import "./partials/_globals";
 @import "./partials/fonts";
+@import "./partials/typography";
 @import "./partials/functions";
 @import "./partials/layout";
 // Components
@@ -11,3 +12,7 @@
 @import "./components/intro";
 @import "./components/btn";
 @import "./components/cards";
+@import "./components/list";
+@import "./components/case";
+@import "./components/social";
+@import "./components/common";

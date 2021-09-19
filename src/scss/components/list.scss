@@ -1,0 +1,9 @@
+.list {
+  #{&}__header {
+  }
+  #{&}__hdl {
+    @include hdl;
+  }
+  #{&}__items {
+  }
+}
